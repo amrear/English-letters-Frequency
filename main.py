@@ -69,7 +69,7 @@ class LetterFrequency:
         plt.ylabel("Percentage")
         plt.grid(True)
         plt.tight_layout()
-        if self.img != None:
+        if self.img is not None:
             plt.savefig(self.img)
 
         plt.show()
